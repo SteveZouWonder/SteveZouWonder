@@ -59,8 +59,6 @@ A tray app for macOS and Windows. Every few minutes it checks Jira, GitHub and P
 1. ⬆️ Pushed to `main` in [meet-minutes-ai](https://github.com/SteveZouWonder/meet-minutes-ai) · <sub>2026-09-23</sub>
 2. ⬆️ Pushed to `master` in [ollama-qwen-coder-rag-lib-agent](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) · <sub>2026-09-15</sub>
 3. ✅ Merged [#48 ci: pytest-timeout + 作业超时；fix: Windows show_popup 模态阻塞（CI 挂起根因）](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent/pull/48) in [ollama-qwen-coder-rag-lib-agent](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) · <sub>2026-09-15</sub>
-4. ⬆️ Pushed to `master` in [ollama-qwen-coder-rag-lib-agent](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) · <sub>2026-09-10</sub>
-5. ✅ Merged [#47 F10 工程加固与体验升级：安全分级 / 钉版本 + CI / 真流式 / LLM 后端抽象 / RAG 评测 / BM25 持久化 +…](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent/pull/47) in [ollama-qwen-coder-rag-lib-agent](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) · <sub>2026-09-10</sub>
 <!-- SHOWCASE:ACTIVITY:END -->
 
 ## Get in touch
