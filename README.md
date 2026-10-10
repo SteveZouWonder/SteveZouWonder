@@ -30,9 +30,9 @@ A tray app for macOS and Windows. Every few minutes it checks Jira, GitHub and P
 
 | Project | What it does | Stack | ⭐ |
 |:--|:--|:--|:--|
-| [**dev-notifier**](https://github.com/SteveZouWonder/dev-notifier) | macOS menu-bar app that watches Jira & GitHub and shows clickable desktop notifications | Python | [![Stars of SteveZouWonder/dev-notifier](https://img.shields.io/github/stars/SteveZouWonder/dev-notifier?style=social)](https://github.com/SteveZouWonder/dev-notifier/stargazers) |
-| [**meet-minutes-ai**](https://github.com/SteveZouWonder/meet-minutes-ai) | AI meeting minutes for Google Meet: bilingual (EN/中文) summary, decisions, action items &… | JavaScript | [![Star SteveZouWonder/meet-minutes-ai on GitHub](https://img.shields.io/badge/Star-on_GitHub-white?style=social&logo=github)](https://github.com/SteveZouWonder/meet-minutes-ai) |
-| [**ollama-qwen-coder-rag-lib-agent**](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) | ollama-qwen-coder-rag-lib-agent | Python | [![Star SteveZouWonder/ollama-qwen-coder-rag-lib-agent on GitHub](https://img.shields.io/badge/Star-on_GitHub-white?style=social&logo=github)](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) |
+| [**dev-notifier**](https://github.com/SteveZouWonder/dev-notifier) | macOS & Windows tray app: clickable notifications for Jira, GitHub and PagerDuty activity | Python | [![Stars of SteveZouWonder/dev-notifier](https://img.shields.io/github/stars/SteveZouWonder/dev-notifier?style=social)](https://github.com/SteveZouWonder/dev-notifier/stargazers) |
+| [**meet-minutes-ai**](https://github.com/SteveZouWonder/meet-minutes-ai) | Bilingual Google Meet minutes: decisions, action items, Jira links. Apps Script + Gemini | JavaScript | [![Star SteveZouWonder/meet-minutes-ai on GitHub](https://img.shields.io/badge/Star-on_GitHub-white?style=social&logo=github)](https://github.com/SteveZouWonder/meet-minutes-ai) |
+| [**ollama-qwen-coder-rag-lib-agent**](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) | Cerebro: offline second brain and AI coding agent on Ollama. Local RAG, no API keys | Python | [![Star SteveZouWonder/ollama-qwen-coder-rag-lib-agent on GitHub](https://img.shields.io/badge/Star-on_GitHub-white?style=social&logo=github)](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) |
 <!-- SHOWCASE:REPOS:END -->
 
 ## Contribution graph
