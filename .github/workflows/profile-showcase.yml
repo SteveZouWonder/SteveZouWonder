@@ -5,7 +5,8 @@
 #                on the `output` branch. The snake heads for the nearest active day and
 #                loops in <= 30 s; Platane/snk was dropped (layer-by-colour route, ~85 s loop).
 # Job readme  -> rewrites the SHOWCASE:REPOS and SHOWCASE:ACTIVITY blocks in README.md.
-# Job metrics -> lowlighter/metrics languages card; needs secret METRICS_TOKEN, skipped without it.
+# No metrics card: its public-only counts (commits, 0 followers / reviews) contradicted the
+# private-inclusive 3D chart, and its language donut duplicated the one in the 3D chart.
 name: Profile showcase
 
 on:
@@ -14,7 +15,6 @@ on:
   workflow_dispatch:
   push:
     branches: [main]
-    paths-ignore: ["metrics/**"]
 
 permissions:
   contents: write
@@ -34,7 +34,7 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
       - run: mkdir -p dist/3d && cp profile-3d-contrib/*.svg dist/3d/
-      - name: Heatmap + skyline
+      - name: Snake, heatmap, skyline and stats.json (README badges read stats.json)
         uses: HowardZlh/github-action-shares@v1
         with:
           source: user
@@ -71,28 +71,3 @@ jobs:
           git commit -am "chore: refresh README stars and activity"
           git push
 
-  metrics:
-    needs: readme # commit after the README job so the two never race
-    runs-on: ubuntu-latest
-    timeout-minutes: 15
-    env:
-      HAS_TOKEN: ${{ secrets.METRICS_TOKEN != '' }}
-    steps:
-      - if: env.HAS_TOKEN != 'true'
-        run: echo "::notice::METRICS_TOKEN not set, metrics card skipped"
-      - if: env.HAS_TOKEN == 'true'
-        uses: lowlighter/metrics@v3.34
-        with:
-          token: ${{ secrets.METRICS_TOKEN }}
-          committer_token: ${{ secrets.GITHUB_TOKEN }}
-          committer_message: "chore: refresh metrics card"
-          filename: metrics/metrics.svg
-          template: classic
-          base: header, activity, community, repositories
-          config_timezone: Asia/Shanghai
-          config_display: large
-          plugin_languages: yes
-          plugin_languages_limit: 6
-          plugin_languages_ignored: html, css, shell, dockerfile
-          # plugin_achievements is off: in v3.34 it still queries classic Projects,
-          # which GitHub removed, and the card shows "Unexpected error"
