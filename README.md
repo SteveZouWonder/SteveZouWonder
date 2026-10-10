@@ -40,8 +40,8 @@ A tray app for macOS and Windows. Every few minutes it checks Jira, GitHub and P
 <sub>Most of my commits go to private work repositories, so the graph below counts them without naming them.</sub>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SteveZouWonder/SteveZouWonder/output/snake-dark.svg">
-  <img alt="Snake eating Steve's GitHub contribution graph for the last year" src="https://raw.githubusercontent.com/SteveZouWonder/SteveZouWonder/output/snake.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SteveZouWonder/SteveZouWonder/output/art/snake-dark.svg">
+  <img alt="Snake heading for the nearest active day on Steve's GitHub contribution graph for the last year" src="https://raw.githubusercontent.com/SteveZouWonder/SteveZouWonder/output/art/snake.svg">
 </picture>
 
 <picture>

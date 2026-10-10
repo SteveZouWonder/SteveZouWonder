@@ -1,8 +1,9 @@
 # Copy to <your-login>/<your-login>/.github/workflows/profile-showcase.yml
 # (the special repo whose README shows on your profile page).
 #
-# Job art     -> snake (Platane/snk), 3D contrib (yoshi389111), heatmap + skyline
-#                (this repo) on the `output` branch.
+# Job art     -> 3D contrib (yoshi389111), snake + heatmap + skyline (github-action-shares)
+#                on the `output` branch. The snake heads for the nearest active day and
+#                loops in <= 30 s; Platane/snk was dropped (layer-by-colour route, ~85 s loop).
 # Job readme  -> rewrites the SHOWCASE:REPOS and SHOWCASE:ACTIVITY blocks in README.md.
 # Job metrics -> lowlighter/metrics languages card; needs secret METRICS_TOKEN, skipped without it.
 name: Profile showcase
@@ -27,13 +28,6 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Snake
-        uses: Platane/snk/svg-only@v3
-        with:
-          github_user_name: ${{ github.repository_owner }}
-          outputs: |
-            dist/snake.svg?palette=github-light
-            dist/snake-dark.svg?palette=github-dark
       - name: 3D contribution calendar
         uses: yoshi389111/github-profile-3d-contrib@v0.9.3
         env:
