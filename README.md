@@ -58,7 +58,6 @@ A tray app for macOS and Windows. Every few minutes it checks Jira, GitHub and P
 <!-- SHOWCASE:ACTIVITY:START -->
 1. ⬆️ Pushed to `master` in [ollama-qwen-coder-rag-lib-agent](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) · <sub>2026-10-12</sub>
 2. ⬆️ Pushed to `main` in [meet-minutes-ai](https://github.com/SteveZouWonder/meet-minutes-ai) · <sub>2026-09-23</sub>
-3. ⬆️ Pushed to `master` in [ollama-qwen-coder-rag-lib-agent](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) · <sub>2026-09-15</sub>
 <!-- SHOWCASE:ACTIVITY:END -->
 
 ## Get in touch
