@@ -56,7 +56,7 @@ A tray app for macOS and Windows. Every few minutes it checks Jira, GitHub and P
 ## Recent activity
 
 <!-- SHOWCASE:ACTIVITY:START -->
-1. ⬆️ Pushed to `master` in [ollama-qwen-coder-rag-lib-agent](https://github.com/SteveZouWonder/ollama-qwen-coder-rag-lib-agent) · <sub>2026-10-12</sub>
+_Nothing public in the last 90 days._
 <!-- SHOWCASE:ACTIVITY:END -->
 
 ## Get in touch
